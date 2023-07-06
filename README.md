@@ -25,7 +25,7 @@
 
 # 📖 microverse_mobile_portfolio<a name="about-project"></a>
 
-**microverse_mobile_portfolio** it is a project to create our portfolio and understand the usage of<strong>Figma</strong>.<br/>
+**microverse_mobile_portfolio** it is a project to create our portfolio and understand the usage of <strong>Figma</strong>.<br/>
  <strong>Figma</strong> is a collaborative design tool which is cloud based. As developers, we primarily use it to determine the precise measurements of each section, font's type, color, and download images for the website or app.<br/>
  <br/>
 
