@@ -38,6 +38,7 @@
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://www.figma.com/ui-design-tool/">FIGMA</a></li>
   </ul>
 </details>
 
