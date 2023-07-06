@@ -25,9 +25,9 @@
 
 # 📖 microverse_mobile_portfolio<a name="about-project"></a>
 
-**helloMicroverse_project** is a small project is about the usage and benefits of <strong>ESLint</strong>.<br/>
-  ESLint is a static code analysis tool for finding errors, bugs, and stylistic errors.<br/>
-  This provides the developer with the ease of delivering clean code.<br/>
+**microverse_mobile_portfolio** it is a project to create our portfolio and understand the usage of<strong>Figma</strong>.<br/>
+ <strong>Figma</strong> is a collaborative design tool which is cloud based. As developers, we primarily use it to determine the precise measurements of each section, font's type, color, and download images for the website or app.<br/>
+ <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,8 +46,10 @@
 ### Key Features <a name="key-features"></a>
 
 - ***Set up files and dependencies*** to configure Linters 📍
+- ***Read about how to use Figma*** to navigate well and take out the element's measurements 📍.
 - ***Create a featured branch*** to store all the changes before doing the merge to main branch 📍
 - **Create a .gitignore file** to store hidden files 📍
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -55,9 +57,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-This is the live demo to <em>helloMicroverse project</em>: <br/>
+This is the live demo to <em>microverse_mobile_portfolio</em>: <br/>
 
-- [Live Demo Link](https://ivonnebenitesrodriguez.github.io/helloMicroverse/)
+- [Live Demo Link](https://ivonnebenitesrodriguez.github.io/microverse_mobile_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,7 +88,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/IvonneBenitesRodriguez/helloMicroverse_project.git
+  git clone git@github.com:myaccount/IvonneBenitesRodriguez/microverse_mobile_portfolio
 ```
 
 Create a featured branch besides main branch :
@@ -102,7 +104,7 @@ Install this project with:<br/>
 a) Enter to your repo's folder:
 
 ```sh
-  cd helloMicroverse_project
+  cd microverse_mobile_portfolio
 ```
 
 b) For Webhint tool, install this command :
@@ -166,9 +168,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]  - I will add the a navbar with 3 categories: Home, Products and Contact.
-- [ ]  - I will add a section with a class. There I will add pictures and text.
-- [ ]  - I will add a footer section with social-network information. 
+- [ ]  - I will add a section named works with 3 projects and its information and images.
+- [ ]  - I will add a section named about myself which includes my resume and technical skills.
+- [ ]  - I will use ul and li to list the categories in both sections.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
@@ -185,7 +187,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, and consider Linters configuration was useful to you,  you can give me a ⭐️ so I can be highly motivated by your support.
+If you like this project, and consider this information useful to you,  you can give me a ⭐️ so I can be highly motivated by your support.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
