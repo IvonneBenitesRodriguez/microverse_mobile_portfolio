@@ -37,57 +37,60 @@ header h4.logo {
   padding: 0.25rem 1.5rem 0.25rem 0.75rem;
 }
 
-.presentation-part{
-   
-    background-image: url(../img/header-shapes-mobile/header-shapes\ mobile.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 114px 24px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.75rem;    
+.presentation-part {
+  background-image: url(../img/header-shapes-mobile/header-shapes\ mobile.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 114px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
 }
-.presentation-part h1{
-    display: flex;
-    width: 20.438rem;
-    height: 9.375rem;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0.25rem 1.5rem 0.25rem 0.75rem;
-    font-family: Poppins-black, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 3.25rem;
-    color: #172b4d;
-    margin-bottom: 0.75rem;
+
+.presentation-part h1 {
+  display: flex;
+  width: 20.438rem;
+  height: 9.375rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+  font-family: Poppins-black, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.25rem;
+  color: #172b4d;
+  margin-bottom: 0.75rem;
 }
+
 p.presentation-paragraph {
-display: flex;
-padding: 0.25rem 1.5rem 0.25rem 0.75rem;
-flex-direction: column;
-font-family: Poppins;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5rem;
-color: #344563;
-margin-bottom: 0.75rem;
+  display: flex;
+  padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+  flex-direction: column;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #344563;
+  margin-bottom: 0.75rem;
 }
-p.socialtext-part{
-    margin-top: 0.75rem;
-    color: #7f8cff;
-    font-family: Poppins,sans-serif;
-    font-size: 1rem;
-    font-size: normal;
-    font-weight: 500;
-    line-height: 1.5rem;
-    padding: 0.25rem 1.5rem 0.25rem 0.75rem;
-    margin-bottom: 0.75rem;
+
+p.socialtext-part {
+  margin-top: 0.75rem;
+  color: #7f8cff;
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  font-size: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+  margin-bottom: 0.75rem;
 }
-.socialnetwork-part img{
-    padding: 0.25rem 1.5rem 0.25rem 0.75rem;
+
+.socialnetwork-part img {
+  padding: 0.25rem 1.5rem 0.25rem 0.75rem;
 }
 
 @media screen and (min-width: 375px) {
@@ -114,7 +117,8 @@ p.socialtext-part{
     gap: 12.438rem;
     padding: 0.5rem;
   }
-  .presentation-part h1{
+
+  .presentation-part h1 {
     display: flex;
     width: 20.438rem;
     height: 9.375rem;
@@ -128,5 +132,5 @@ p.socialtext-part{
     line-height: 3.25rem;
     color: #172b4d;
     margin-bottom: 0.75rem;
-}
+  }
 }
