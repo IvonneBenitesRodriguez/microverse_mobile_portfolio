@@ -13,10 +13,12 @@
   font-family: 'Poppins-Medium';
   src: url(../fonts/Poppins/Poppins-Medium.ttf);
 }
-@font-face{
+
+@font-face {
   font-family: 'Poppins-Thin';
   src: url(../fonts/Poppins/Poppins-Light.ttf);
 }
+
 body {
   background-color: #f7f7f9;
 }
@@ -124,7 +126,8 @@ section.works {
   padding-right: 24px;
   padding-top: 114px;
 }
-.card-works{
+
+.card-works {
   width: 100%;
   flex-direction: column;
   display: inline-flex;
@@ -135,7 +138,8 @@ section.works {
   background-color: #ffff;
   margin-bottom: 88px;
 }
-figure img{
+
+figure img {
   padding-bottom: 12px;
   border-radius: 8px;
   display: flex;
@@ -143,54 +147,65 @@ figure img{
   width: 100%;
   margin-bottom: 12px;
 }
- h2.primary-text{
- font-family: Poppins-Regular, sans-serif;
- font-size: 32px;
- font-style: normal;
- font-weight: 700;
- line-height: 44px;
- color: #172b4d;
+
+h2.primary-text {
+  font-family: Poppins-Regular, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
 }
-.list-card-primary{
+
+.list-card-primary {
   margin-bottom: 12px;
 }
+
 .list-card-primary ul {
   display: flex;
 }
-.list-card-primary ul li{
+
+.list-card-primary ul li {
   list-style: none;
 }
-.list-card-primary li a{
-  text-decoration: none; 
+
+.list-card-primary li a {
+  text-decoration: none;
   padding-right: 12px;
   color: #344563;
 }
-.card-br{
+
+.card-br {
   margin-top: 12px;
 }
-a.back{
-  font-family: Poppins;
+
+a.back {
+  font-family: Poppins, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
   color: #7a869a;
 }
-a.back img{
+
+a.back img {
   padding-right: 16px;
 }
-a.year{
-  font-family: Poppins;
+
+a.year {
+  font-family: Poppins, sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
   color: #7a869a;
 }
-a.year img{
+
+a.year img {
   padding-right: 16px;
 }
-a.canopy{
+
+a.canopy {
   font-size: 13px;
   font-family: Poppins-Regular, sans-serif;
   font-style: normal;
@@ -198,8 +213,9 @@ a.canopy{
   line-height: 16px;
   padding-right: 12px;
 }
-p.work-text{
-  font-family: Poppins-Thin,sans-serif;
+
+p.work-text {
+  font-family: Poppins-Thin, sans-serif;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -210,13 +226,25 @@ p.work-text{
   margin-bottom: 12px;
 }
 
-.buttons-group ul{
-display: flex;
+.buttons-group ul {
+  display: flex;
 }
-.buttons-group ul li{
+
+.buttons-group ul li {
   list-style: none;
   padding-right: 20px;
 }
+
+button.normal-btn a {
+  text-decoration: none;
+  color: #396df2;
+  background: #ffff;
+  font-family: Poppins-Regular, sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.51px;
+}
+
 ul.buttons li button a {
   font-size: 12px;
   font-style: normal;
@@ -225,16 +253,18 @@ ul.buttons li button a {
   letter-spacing: 0.36px;
   color: #6070ff;
   text-decoration: none;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   padding: 4px 12px;
 }
-.button-bg{
+
+.button-bg {
   background-color: #ebebff;
   border: 1px solid #ebebff;
   border-radius: 8px;
   margin-bottom: 24px;
 }
-.normal-button{
+
+.normal-button {
   display: flex;
   align-items: center;
   margin-top: 12px;
@@ -242,23 +272,17 @@ ul.buttons li button a {
   width: 126px;
   height: 48px;
 }
-.normal-btn{
+
+.normal-btn {
   border: none;
 }
-.normal-button button a{
+
+.normal-button button .normal-btn a {
   border: 1px solid #6070ff;
   border-radius: 8px;
   padding: 12px;
 }
-button.normal-btn a{
-  text-decoration: none;
-  color: #396DF2;
-  background: #ffff;
-  font-family: Poppins-Regular, sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 0.51px;
-}
+
 @media screen and (min-width: 375px) {
   header h4.logo {
     font-family: Poppins-regular, sans-serif;
