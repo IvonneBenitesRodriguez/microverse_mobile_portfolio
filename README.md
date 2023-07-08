@@ -25,7 +25,7 @@
 
 # 📖 microverse_mobile_portfolio<a name="about-project"></a>
 
-**microverse_mobile_portfolio** it is a project to create our portfolio and understand the usage of <strong>Figma</strong>.<br/>
+**microverse_mobile_portfolio** it is a project to create our portfolio in **Mobile version** and understand the usage of <strong>Figma</strong>.<br/>
  <strong>Figma</strong> is a collaborative design tool which is cloud based. As developers, we primarily use it to determine the precise measurements of each section, font's type, color, and download images for the website or app.<br/>
  <br/>
 
@@ -50,6 +50,8 @@
 - ***Read about how to use Figma*** to navigate well and take out the element's measurements 📍.
 - ***Create a featured branch*** to store all the changes before doing the merge to main branch 📍
 - **Create a .gitignore file** to store hidden files 📍
+- **Read about the usage of CSS Grids and FlexBox** to deliver a responsive design. 📍
+- **Read about the usage of Buttons** and how to make it interactive. 📍
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -169,9 +171,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]  - I will add a section named works with 3 projects and its information and images.
-- [ ]  - I will add a section named about myself which includes my resume and technical skills.
-- [ ]  - I will use ul and li to list the categories in both sections.
+- [ ]  - I will add a contact-form section.
+- [ ]  - I will add a desktop version.
+- [ ]  - I will add media-queries to style the desktop version.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
