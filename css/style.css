@@ -282,6 +282,9 @@ ul.buttons li button a {
   border-radius: 8px;
   padding: 12px;
 }
+.last-card{
+  margin-bottom: 144px;
+}
 
 @media screen and (min-width: 375px) {
   header h4.logo {
