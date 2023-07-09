@@ -124,6 +124,22 @@ p.socialtext-part {
   border-radius: 8px;
 }
 
+.program-lang li {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #f7f7f9;
+  line-height: 20px;
+  color: #253858;
+  margin: 16px;
+  padding: 12px;
+  gap: 16px;
+}
+
 ul.socialnetwork-icon li {
   padding-left: 12px;
   justify-content: space-around;
@@ -173,6 +189,10 @@ h2.primary-text {
 
 .list-card-primary {
   margin-bottom: 12px;
+}
+
+ul {
+  list-style-type: none;
 }
 
 .list-card-primary ul {
@@ -356,13 +376,17 @@ p.socialtext-part.about-me-part {
   padding-bottom: 16px;
 }
 
+ul.develop-lang li {
+  margin-left: 0;
+}
+
 ul.socialnetwork-icon.about-me-part li {
   padding-left: 10px;
   padding-right: 16px;
   padding-bottom: 16px;
 }
 
-.lang-chv h4 {
+h3.lang-1 {
   padding-top: 16px;
   padding-bottom: 16px;
   font-family: Poppins, sans-serif;
@@ -374,54 +398,55 @@ ul.socialnetwork-icon.about-me-part li {
   padding-right: 170px;
 }
 
-.title-icon-me-part {
-  display: flex;
+.program-lang {
+  list-style: none;
+  padding-left: 0;
 }
 
-.chev-open {
-  padding-right: 26px;
-  margin-right: 24px;
-}
-
-.languages-icon {
+.develop-lang {
   list-style: none;
 }
 
-ul.languages-icon li a p.lang {
-  padding-left: 16px;
+.title-lang {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-family: Poppins, sans-serif;
-  font-size: 15px;
   font-style: normal;
   font-weight: 500;
-  line-height: 20px;
-  color: #253858;
-  flex-shrink: 0;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.fram-chv h4 {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  font-family: Poppins, sans-serif;
-  color: #000;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  padding-right: 170px;
-  border-bottom: 1px solid #dfe1e6;
+.line-separator {
+  width: 100%;
 }
 
-.skills-chv h4 {
-  padding-top: 16px;
-  padding-bottom: 16px;
-  font-family: Poppins, sans-serif;
-  color: #000;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  padding-right: 240px;
-  border-bottom: 1px solid #dfe1e6;
+.lists {
+  display: flex;
+  align-items: center;
+  gap: 136px;
+  max-width: 100%;
+  height: 66.72px;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0;
+  padding-right: 85px;
+}
+
+.lists h3 {
+  margin-right: 0;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 60vw;
+  padding: auto;
+  width: 100px;
+  right: 80px;
 }
 
 @media screen and (min-width: 375px) {
