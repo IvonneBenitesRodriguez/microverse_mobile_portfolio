@@ -261,12 +261,11 @@ p.work-text {
 }
 
 .buttons-group ul {
-  display: flex;
+ display: flex; 
 }
-
 .buttons-group ul li {
   list-style: none;
-  padding-right: 20px;
+  padding-right: 9px;
 }
 
 button.normal-btn a {
