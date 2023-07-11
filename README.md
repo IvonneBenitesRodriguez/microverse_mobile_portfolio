@@ -40,8 +40,10 @@
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
     <li><a href="https://www.figma.com/ui-design-tool/">FIGMA</a></li>
   </ul>
-  <summary>Server</summary>
-  <ul>
+</details>
+<details>
+<summary>Server</summary>
+<ul>
     <li><a href="https://formspree.io/">FORMSPREE</a></li>
   </ul>  
 </details>
