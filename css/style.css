@@ -449,6 +449,18 @@ h3.lang-1 {
   right: 80px;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  border: 0px;
+  padding: 5%;
+  border-radius: 12px;
+}
+
 @media screen and (min-width: 375px) {
   header h4.logo {
     font-family: Poppins-regular, sans-serif;
