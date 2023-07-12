@@ -41,6 +41,12 @@
     <li><a href="https://www.figma.com/ui-design-tool/">FIGMA</a></li>
   </ul>
 </details>
+<details>
+<summary>Server</summary>
+<ul>
+    <li><a href="https://formspree.io/">FORMSPREE</a></li>
+  </ul>  
+</details>
 
 <!-- Features -->
 
@@ -52,7 +58,7 @@
 - **Create a .gitignore file** to store hidden files 📍
 - **Read about the usage of CSS Grids and FlexBox** to deliver a responsive design. 📍
 - **Read about the usage of Buttons** and how to make it interactive. 📍
-
+- **Get an account in Formspree.io** to use it. 📍 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,9 +177,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]  - I will add a contact-form section.
-- [ ]  - I will add a desktop version.
-- [ ]  - I will add media-queries to style the desktop version.
+- [ ]  - I will add animations in the icons.
+- [ ]  - I will add a desktop version using media-queries.
+- [ ]  - I will add new images to the project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
