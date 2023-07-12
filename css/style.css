@@ -300,9 +300,9 @@ ul.buttons li button a {
 }
 
 button.normal-btn a:hover {
-  background-color: deeppink;
+  background-color: #6070ff;
   color: white;
-  border: 1px solid deeppink;
+  border: 1px solid #6070ff;
 }
 
 .button-bg {
@@ -528,14 +528,15 @@ h3.lang-1 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.51px;
-  padding-bottom: 45px;
   cursor: pointer;
 }
 
 .button-contact-form:hover {
-  background-color: salmon;
+  background-color: #6070ff;
   color: white;
-  border: 1px solid salmon;
+  border: 1px solid #6070ff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
 }
 
 @media screen and (min-width: 375px) {
