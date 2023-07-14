@@ -59,6 +59,7 @@
 - **Read about the usage of CSS Grids and FlexBox** to deliver a responsive design. 📍
 - **Read about the usage of Buttons** and how to make it interactive. 📍
 - **Get an account in Formspree.io** to use it. 📍 
+- **Understand how to make a design Responsive** for Desktop devices.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -177,8 +178,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]  - I will add animations in the icons.
-- [ ]  - I will add a desktop version using media-queries.
+- [ ]  - I will use animations to this project.
+- [ ]  - I will add an ipad version for this project.
 - [ ]  - I will add new images to the project.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
