@@ -19,6 +19,16 @@
   src: url(../fonts/Poppins/Poppins-Light.ttf);
 }
 
+input::placeholder,
+textarea::placeholder {
+  transition: all 0.5s ease-out;
+}
+
+input:hover::placeholder,
+textarea:hover::placeholder {
+  transform: translateX(20px);
+}
+
 body {
   background-color: #f7f7f9;
 }
