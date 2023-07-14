@@ -839,7 +839,8 @@ h3.lang-1 {
     display: block;
     transition: width 2s, height 2s, background-color 2s, rotate 2s;
   }
-  .desktop-snapshoot-5:hover{
+
+  .desktop-snapshoot-5:hover {
     rotate: 180deg;
   }
 
@@ -859,7 +860,8 @@ h3.lang-1 {
     display: block;
     transition: width 2s, height 2s, background-color 2s, rotate 2s;
   }
-  .desktop-snapshoot-1-3:hover{
+
+  .desktop-snapshoot-1-3:hover {
     rotate: 180deg;
   }
 
