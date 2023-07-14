@@ -69,7 +69,7 @@
 
 This is the live demo to <em>microverse_mobile_portfolio</em>: <br/>
 
-- [Live Demo Link](https://boisterous-sprinkles-3b9890.netlify.app/)
+- [Live Demo Link](https://ivonnebenitesrodriguez.github.io/microverse_mobile_portfolio/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
