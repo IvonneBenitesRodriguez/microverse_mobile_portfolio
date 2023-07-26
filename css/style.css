@@ -308,6 +308,17 @@ button.normal-btn a {
   cursor: pointer;
 }
 
+.mobile-links li a {
+  padding-left: 24px;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 74px;
+  color: #fff;
+  font-family: Poppins-Medium, sans-serif;
+  text-decoration: none;
+}
+
 ul.languages-icon li a {
   text-decoration: none;
 }
@@ -561,6 +572,35 @@ h3.lang-1 {
   color: white;
   border: 1px solid #6070ff;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-menu-blue {
+  width: 100%;
+  background-color: rgba(96, 112, 255, 0.8);
+  backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow-y: hidden;
+  height: 100vh;
+}
+
+.create-x {
+  display: flex;
+  justify-content: end;
+  padding-top: 1.9rem;
+}
+
+.fa-x {
+  padding-right: 2.3rem;
+  color: #fff;
+  padding-top: 26px;
+  font-size: 26px;
+}
+
+ul.mobile-links {
+  padding-top: 30px;
 }
 
 @media screen and (min-width: 375px) {

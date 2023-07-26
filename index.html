@@ -6,42 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Microverse mobile project</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/afdd353a4f.js" crossorigin="anonymous"></script>
+    <script src="./js/menu.js" defer></script>
 </head>
 <body>
     <header>
             <section class="logo-menubar">
-                <h4 class="logo">
-                    <a href="#">
-                            My Logo
-                    </a>
-                </h4>
-                <nav>
-                    <img src="./img/Normal Button/Tertiary/Icons/Icon - Menu.svg" class="hamb-icon" alt="menu-bar">
-                    <ul class="nav-items">
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </section>
-    </header>
-    <section class="presentation-part desktop-version">
-                    <h1>I'm Ivonne.<br/> Glad to see you!</h1>
-                    <p class="presentation-paragraph">I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
-                    <div class="socialnetwork-part">
-                            <p class="socialtext-part">
-                                LET'S CONNECT
-                            </p>
-                            <ul class="socialnetwork-icon">
-                                <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/frame-2.svg" alt="twitter logo"></a></li>
-                                <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/frame-1.svg" alt="linkedin logo"></a></li>
-                                <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/icon-medium.svg" alt="medium logo"></a></li>
-                                <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/frame.svg" alt="github logo"></a></li>
-                                <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/angelist 1.svg" alt="angelist logo"></a></li>
+                        <h4 class="logo">
+                            <a href="#">
+                                    My Logo
+                            </a>
+                        </h4>
+                        <nav>
+                            <img src="./img/Normal Button/Tertiary/Icons/Icon - Menu.svg" class="hamb-icon" alt="menu-bar">
+                            <ul class="nav-items">
+                                <li><a href="#">Portfolio</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Contact</a></li>
                             </ul>
+                        </nav>
+                    </section>
+            </header>
+            <div class="mobile-menu-blue" id="mobile_menu_blue">
+                <div class="effect">
+                    <div class="create-x">
+                        <i class="fa-solid fa-x" id="icon-x"></i>
                     </div>
-      </section>
-      <section class="works">
+                    <ul class="mobile-links">
+                        <li><a href="#portfolio-part" id="portfolio-section">Portfolio</a></li>
+                        <li><a href="#about-myself" id="about-section">About</a></li>
+                        <li><a href="#contact-form" id="contact-section">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <section class="presentation-part desktop-version">
+                            <h1>I'm Ivonne.<br/> Glad to see you!</h1>
+                            <p class="presentation-paragraph">I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+                            <div class="socialnetwork-part">
+                                    <p class="socialtext-part">
+                                        LET'S CONNECT
+                                    </p>
+                                    <ul class="socialnetwork-icon">
+                                        <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/frame-2.svg" alt="twitter logo"></a></li>
+                                        <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/frame-1.svg" alt="linkedin logo"></a></li>
+                                        <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/icon-medium.svg" alt="medium logo"></a></li>
+                                        <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/frame.svg" alt="github logo"></a></li>
+                                        <li><a href="#"><img src="./img/icons-social-network/Tertiary/Icons/angelist 1.svg" alt="angelist logo"></a></li>
+                                    </ul>
+                            </div>
+            </section>   
+            <section class="works" id="portfolio-part">
                 <div class="card-works">
                     <figure class="desktop-first">
                         <img src="./img/Snapshoot-Portfolio-1.png" class="mobile-snapshoot-1 desktop-snapshoot-1" alt="snapshoot-1">
@@ -183,7 +198,7 @@
                     </div>    
                 </div>        
       </section>
-      <section class="about-myself">
+      <section class="about-myself" id="about-myself">
         <div class="about-myself-first">
         <h2 class="about-me">About Myself</h2>
                     <p class="presentation-paragraph">I am a software developer! I can help you build a product, feature or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
@@ -258,12 +273,12 @@
                                 </li>
                             </ul>                 
       </section>
-      <section class="contact-form">
+      <section class="contact-form" id="contact-form">
         <h2 class="contact-me">Contact me</h2>
         <p class="contact-paragraph">If you have an application you are interested in developing, a feature that you need to built or a project that needs coding. I'd love to help with it!</p>
         <form action="https://formspree.io/f/mnqwgezj" method="POST" class="form">
-            <input type="text" name="name" id="name" placeholder="name" maxlength="30" class="input" required>
-            <input type="email" name="email" id="email" placeholder="email" class="input" required>
+            <input type="text" name="name" id="name" placeholder="name" maxlength="30" class="input" autocomplete="given-name" required>
+            <input type="email" name="email" id="email" placeholder="email" class="input" autocomplete="off" required>
             <textarea name="description" id="" cols="30" rows="10" placeholder="Write your message here.." maxlength="500" class="input-text" required></textarea>
             <input type="submit" value="Get in touch" class="button-contact-form">
         </form>

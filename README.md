@@ -172,6 +172,12 @@ You can deploy this project using:
 - Twitter: [@IvonneBenitesR](https://twitter.com/IvonneBenitesR)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ivonnebenites/)
 
+
+👩🏽‍💻🌸 **Daniel Villalba Lynch**
+
+- GitHub: [@gdvl777](https://github.com/gdvl777)
+- X.com: [@gdvl777_](https://twitter.com/gdvl777_)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
