@@ -26,7 +26,7 @@
 # 📖 microverse_mobile_portfolio<a name="about-project"></a>
 
 **microverse_mobile_portfolio** it is a project to create our portfolio in **Mobile version** and **Desktop Version** and understand the usage of <strong>Figma</strong>.<br/>
-This project showcases the functionality of a dynamic popup window, created using media queries, objects, for loops, events, and DOM manipulation.
+This project is about how to add Client side validation to a form section.
  <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -62,6 +62,7 @@ This project showcases the functionality of a dynamic popup window, created usin
 - **Get an account in Formspree.io** to use it. 📍 
 - **Understand how to make a design Responsive** for Desktop devices.
 - **Understand the usage of JavaScript: Events, DOM manipulation, syntax, and Objects to store data**📍
+- **Understand how to add Client side validation: regex, built-in input elements**📍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -202,7 +203,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]  - I will add a validation form.
+- [ ]  - I will add a preserve data functionality in the browser.
 - [ ]  - I will add styles in case I add another element.
 - [ ]  - I will add new images.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
