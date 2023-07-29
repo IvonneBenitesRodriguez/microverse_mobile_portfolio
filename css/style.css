@@ -1164,14 +1164,16 @@ ul.project__lang {
     flex-direction: column;
     display: flex;
   }
-button.modal-btn.external a.externalLink{
-  text-decoration: none;
-  color: #6070ff;
-}
- button.modal-btn.github a.githubLink{
-  text-decoration: none;
-  color: #6070ff;
-}
+
+  button.modal-btn.external a.externalLink {
+    text-decoration: none;
+    color: #6070ff;
+  }
+
+  button.modal-btn.github a.githubLink {
+    text-decoration: none;
+    color: #6070ff;
+  }
 
   .left-block-desktop {
     display: flex;
