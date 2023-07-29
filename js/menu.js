@@ -186,3 +186,16 @@ for (let i = 0; i < projectsData.length; i += 1) {
     });
   });
 }
+
+const email = document.querySelector('#email');
+const validationMessageAlert = document.querySelector('.alert');
+const contactForm = document.querySelector('.contact-form');
+contactForm.addEventListener('submit',(event)=>{
+  const regexInfo = /[A-Z]/;
+  const emailContent = email.value;
+  if(regexInfo.test(emailContent)){
+    validationMessageAlert.innerHTML = 'Your email address should not contain uppercase letters';
+  event.preventDefault();
+  }
+});
+
