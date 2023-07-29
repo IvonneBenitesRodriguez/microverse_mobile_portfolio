@@ -92,13 +92,6 @@ const projectsData = [
 
 workSections.innerHTML = '';
 for (let i = 0; i < projectsData.length; i += 1) {
-  // let languages = '';
-  // projectsData[i].technologies.forEach((language) => {
-  //   // workSections.innerHTML += `
-  // // <li><a href='' class='skill' title='${language}'>${language}</a></li>
-  // // `;
-  // });
-
   workSections.innerHTML += `
           <div class="card-works'>
                         <figure class="desktop-first">
@@ -137,39 +130,41 @@ for (let i = 0; i < projectsData.length; i += 1) {
     year.innerHTML = projectsData[i].year;
 
     modal.innerHTML = `
-                      <div class='modal-head'>
-                          <h2 class='projectname'>${projectsData[i].name}</h2>
-                          <button type='button' class='closeModal'>&times;</button>
-                      </div>
-                      <div class='modal-body'>
-                        <div class='short-desc'>    
-                              <h4 class='company'>${projectsData[i].company}</h4>
-                              <span></span>
-                              <h4 class='role'>${projectsData[i].role}</h4>
-                              <span></span>
-                              <h4 class='year'>${projectsData[i].year}</h4>
-                        </div>
-                        <img src='${projectsData[i].imageLink}' alt='img' class='modal-img'>
-                        <div class='project-desc'>
-                              <p class='desc'>
-                                  Lorem ipsum dolor sit amet consectetur adipiscing elit. In voluptatem pariatur modi rerum error ea
-                                  consequatur, excepturi eum maiores! Quo quibusdam culpa ratione.?Lorem ipsum dolor sit amet. consectetur
-                                  adispicing elit.
-                              </p>
-                              <div class='desc-btn'>
-                                <ul class='project_lang'>
-                                    <li><a href='' class='lang1' title='html'>html</a></li>
-                                    <li><a href='' class='lang1' title='css'>css</a></li>
-                                    <li><a href='' class='lang1' title='javascript'>javascript</a></li>
-                                </ul>
-                              <div class='final'>
-                                <button type='button' class='modal-btn external'><a href="https://ivonnebenitesrodriguez.github.io/microverse_mobile_portfolio/" class="externalLink">See live<i class='fa fa-external-link' aria-hidden='true'></i></a></button>
-                                <button type='button' class='modal-btn github'><a href="https://github.com/IvonneBenitesRodriguez/microverse_mobile_portfolio" class="githubLink">See source<i class='fa fa-github'></i></a></button>
-                              </div>    
-                        </div>
-                      </div>
-                    </div>        
-                              `;
+                        
+                            <div class='modal-head'>
+                                <h2 class='projectname'>${projectsData[i].name}</h2>
+                                <button type='button' class='closeModal'>&times;</button>
+                            </div>
+                            <div class='modal-body'>
+                              <div class='short-desc'>    
+                                    <h4 class='company'>${projectsData[i].company}</h4>
+                                    <span></span>
+                                    <h4 class='role'>${projectsData[i].role}</h4>
+                                    <span></span>
+                                    <h4 class='year'>${projectsData[i].year}</h4>
+                              </div>
+                              <img src='${projectsData[i].imageLink}' alt='img' class='modal-img'>
+                              <div class='project-desc'>
+                                    <p class='desc'>
+                                        Lorem ipsum dolor sit amet consectetur adipiscing elit. In voluptatem pariatur modi rerum error ea
+                                        consequatur, excepturi eum maiores! Quo quibusdam culpa ratione.?Lorem ipsum dolor sit amet. consectetur
+                                        adispicing elit.
+                                    </p>
+                                    <div class='desc-btn'>
+                                      <ul class='project_lang'>
+                                          <li><a href='' class='lang1' title='html'>html</a></li>
+                                          <li><a href='' class='lang1' title='css'>css</a></li>
+                                          <li><a href='' class='lang1' title='javascript'>javascript</a></li>
+                                      </ul>
+                                    <div class='final'>
+                                      <button type='button' class='modal-btn external'><a href="https://ivonnebenitesrodriguez.github.io/microverse_mobile_portfolio/" class="externalLink">See live<i class='fa fa-external-link' aria-hidden='true'></i></a></button>
+                                      <button type='button' class='modal-btn github'><a href="https://github.com/IvonneBenitesRodriguez/microverse_mobile_portfolio" class="githubLink">See source<i class='fa fa-github'></i></a></button>
+                                    </div>    
+                              </div>
+                            </div>
+                          </div>
+                             
+                                    `;
 
     document.querySelector('.works').classList.add('blur');
     document.querySelector('.header').classList.add('blur');
