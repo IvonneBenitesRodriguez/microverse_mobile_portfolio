@@ -835,7 +835,7 @@ ul.mobile-links {
   background: #fff;
   border-radius: 20px;
   margin: 2%;
-  width: 96%;
+  width: 92%;
   padding: 10px;
   position: fixed;
   animation: smoth-effet-open 0.7s;
@@ -1164,12 +1164,37 @@ button.modal-btn.github a.githubLink {
   p.desc {
     line-height: 20px;
   }
-
   div.modal-example.show {
     display: flex;
-    border-radius: 30px;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 608px;
+    transform: translate(-10%,0%);
   }
 
+  div.modal-example{
+    flex-direction: column;
+    background: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    top: 0;
+    width: 85%;
+    color: #172b4d;
+    min-height: 600px;
+    height: 600px;
+    overflow: scroll;
+  }
+
+  div.modal-example img.modal-img{
+    width: 65%;
+  }
+  div.modal-body{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+  
   .left-block {
     flex-direction: column;
     display: flex;
@@ -1452,4 +1477,67 @@ button.modal-btn.github a.githubLink {
   input.button-contact-form {
     margin-right: 0;
   }
+}
+@media screen and(min-width: 992px){
+
+  div.modal-example.show {
+    display: flex;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    max-height: 608px;
+    transform: translate(-10%,0%);
+  }
+
+  div.modal-example{
+    flex-direction: column;
+    background: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    top: 0;
+    width: 70%;
+    color: #172b4d;
+    min-height: 600px;
+    height: 600px;
+    overflow: scroll;
+  }
+
+  div.modal-example img.modal-img{
+    width: 75%;
+  }
+  div.modal-body{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+}
+@media screen and(min-width: 2025px){
+
+  div.modal-example.show {
+    display: flex;
+    right: 0;
+    bottom: 0;
+    max-width: 25%;
+    max-height: 300px;
+    transform: translate(-10%,0%);
+  }
+
+  div.modal-example{
+    flex-direction: column;
+    background: #fff;
+    border-radius: 20px;
+    padding: 2%;
+    top: 0;
+    width: 38%;
+    color: #172b4d;
+    height: 60vh;
+  }
+  div.modal-example img.modal-img{
+    width: 30%;
+  }
+  div.modal-body{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
 }
