@@ -26,7 +26,7 @@
 # 📖 microverse_mobile_portfolio<a name="about-project"></a>
 
 **microverse_mobile_portfolio** it is a project to create our portfolio in **Mobile version** and **Desktop Version** and understand the usage of <strong>Figma</strong>.<br/>
-This project is about how to add Client side validation to a form section.
+This project's goal is to use local storage to save user input.
  <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
