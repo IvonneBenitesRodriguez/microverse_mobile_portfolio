@@ -163,8 +163,8 @@ for (let i = 0; i < projectsData.length; i += 1) {
                                     <li><a href='' class='lang1' title='javascript'>javascript</a></li>
                                 </ul>
                               <div class='final'>
-                                <button type='button' class='modal-btn'>See live <i class='fa fa-external-link' aria-hidden='true'></i></button>
-                                <button type='button' class='modal-btn'>See source<i class='fa fa-github'></i></button>
+                                <button type='button' class='modal-btn external'><a href="https://ivonnebenitesrodriguez.github.io/microverse_mobile_portfolio/" class="externalLink">See live<i class='fa fa-external-link' aria-hidden='true'></i></a></button>
+                                <button type='button' class='modal-btn github'><a href="https://github.com/IvonneBenitesRodriguez/microverse_mobile_portfolio" class="githubLink">See source<i class='fa fa-github'></i></a></button>
                               </div>    
                         </div>
                       </div>
