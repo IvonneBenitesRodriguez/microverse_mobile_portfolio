@@ -1164,16 +1164,17 @@ button.modal-btn.github a.githubLink {
   p.desc {
     line-height: 20px;
   }
+
   div.modal-example.show {
     display: flex;
     right: 0;
     bottom: 0;
     max-width: 100%;
     max-height: 608px;
-    transform: translate(-10%,0%);
+    transform: translate(-10%, 0%);
   }
 
-  div.modal-example{
+  div.modal-example {
     flex-direction: column;
     background: #fff;
     border-radius: 20px;
@@ -1186,15 +1187,16 @@ button.modal-btn.github a.githubLink {
     overflow: scroll;
   }
 
-  div.modal-example img.modal-img{
+  div.modal-example img.modal-img {
     width: 65%;
   }
-  div.modal-body{
+
+  div.modal-body {
     width: 80%;
     display: flex;
     flex-direction: column;
-}
-  
+  }
+
   .left-block {
     flex-direction: column;
     display: flex;
@@ -1478,18 +1480,18 @@ button.modal-btn.github a.githubLink {
     margin-right: 0;
   }
 }
-@media screen and(min-width: 992px){
 
+@media screen and(min-width: 992px) {
   div.modal-example.show {
     display: flex;
     right: 0;
     bottom: 0;
     max-width: 100%;
     max-height: 608px;
-    transform: translate(-10%,0%);
+    transform: translate(-10%, 0%);
   }
 
-  div.modal-example{
+  div.modal-example {
     flex-direction: column;
     background: #fff;
     border-radius: 20px;
@@ -1502,27 +1504,28 @@ button.modal-btn.github a.githubLink {
     overflow: scroll;
   }
 
-  div.modal-example img.modal-img{
+  div.modal-example img.modal-img {
     width: 75%;
   }
-  div.modal-body{
+
+  div.modal-body {
     width: 75%;
     display: flex;
     flex-direction: column;
+  }
 }
-}
-@media screen and(min-width: 2025px){
 
+@media screen and(min-width: 2025px) {
   div.modal-example.show {
     display: flex;
     right: 0;
     bottom: 0;
     max-width: 25%;
     max-height: 300px;
-    transform: translate(-10%,0%);
+    transform: translate(-10%, 0%);
   }
 
-  div.modal-example{
+  div.modal-example {
     flex-direction: column;
     background: #fff;
     border-radius: 20px;
@@ -1532,12 +1535,14 @@ button.modal-btn.github a.githubLink {
     color: #172b4d;
     height: 60vh;
   }
-  div.modal-example img.modal-img{
+
+  div.modal-example img.modal-img {
     width: 30%;
   }
-  div.modal-body{
+
+  div.modal-body {
     width: 25%;
     display: flex;
     flex-direction: column;
-}
+  }
 }
