@@ -25,8 +25,8 @@
 
 # 📖 microverse_mobile_portfolio<a name="about-project"></a>
 
-**microverse_mobile_portfolio** it is a project to create our portfolio in **Mobile version** and understand the usage of <strong>Figma</strong>.<br/>
- <strong>Figma</strong> is a collaborative design tool which is cloud based. As developers, we primarily use it to determine the precise measurements of each section, font's type, color, and download images for the website or app.<br/>
+**microverse_mobile_portfolio** it is a project to create our portfolio in **Mobile version** and **Desktop Version** and understand the usage of <strong>Figma</strong>.<br/>
+This project showcases the functionality of a dynamic popup window, created using media queries, objects, for loops, events, and DOM manipulation.
  <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -38,6 +38,7 @@
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
     <li><a href="https://www.w3schools.com/css/">CSS</a></li>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript</a></li>
     <li><a href="https://www.figma.com/ui-design-tool/">FIGMA</a></li>
   </ul>
 </details>
@@ -60,6 +61,7 @@
 - **Read about the usage of Buttons** and how to make it interactive. 📍
 - **Get an account in Formspree.io** to use it. 📍 
 - **Understand how to make a design Responsive** for Desktop devices.
+- **Understand the usage of JavaScript: Events, DOM manipulation, syntax, and Objects to store data**📍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,6 +93,10 @@ To get a local copy up and running, follow these steps.
 If you have installed it, it will output the version of node.
 
 2) If you do not have it installed, go to the page : https://nodejs.org/en and download it.
+   
+3) Upload this file:  linters.yml to use ESLint JavaScript analytic tool.
+
+4) Copy .eslintrc.json to the root directory of your project.
 
 ### Setup
 
@@ -129,6 +135,12 @@ c) For StyleLint tool, install this command:
    npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
 ```
 
+d) For ESLint tool, install this command:
+
+```sh
+  npm install --save-dev eslint@7.x eslint-config-airbnb-base@14.x eslint-plugin-import@2.x babel-eslint@10.x
+```
+
 ### Usage
 
 To run this project, execute the following command:
@@ -142,6 +154,11 @@ b) For StyleLint tool:
 ```sh
     npx stylelint "**/*.{css,scss}"
 ```
+c) For ESLint tool:
+```sh
+    npx eslint .
+```
+
 
 ### Run tests
 
@@ -150,6 +167,7 @@ To run tests, run the following command:
 ```sh
    npx hint .
    npx stylelint "**/*.{css,scss}"
+   npx eslint .
 ```
 
 
@@ -184,9 +202,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]  - I will use animations to this project.
-- [ ]  - I will add an ipad version for this project.
-- [ ]  - I will add new images to the project.
+- [ ]  - I will add a validation form.
+- [ ]  - I will add styles in case I add another element.
+- [ ]  - I will add new images.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
