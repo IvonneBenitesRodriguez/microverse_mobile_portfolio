@@ -181,7 +181,7 @@ for (let i = 0; i < projectsData.length; i += 1) {
     });
   });
 }
-
+//Contact Form Validation:
 const email = document.querySelector('#email');
 const validationMessageAlert = document.querySelector('.alert');
 const contactForm = document.querySelector('.contact-form');
@@ -193,3 +193,20 @@ contactForm.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+
+const nameField = document.querySelector('#name');
+const emailAddressField = document.querySelector('#email');
+const messageField = document.querySelector('#message');
+
+contactForm.addEventListener('input', () => {
+  const userData = {
+    name: nameField.value,
+    email: emailAddressField.value,
+    message: messageField.value,
+  };
+  localStorage.setItem('userData', JSON.stringify(userData));
+});
+const userDataFromLocalStorage = JSON.parse(localStorage.getItem('userData'));
+nameField.value = userDataFromLocalStorage.name;
+emailAddressField.value = userDataFromLocalStorage.email;
+messageField.value = userDataFromLocalStorage.message;

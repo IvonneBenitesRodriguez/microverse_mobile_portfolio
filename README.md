@@ -26,7 +26,7 @@
 # 📖 microverse_mobile_portfolio<a name="about-project"></a>
 
 **microverse_mobile_portfolio** it is a project to create our portfolio in **Mobile version** and **Desktop Version** and understand the usage of <strong>Figma</strong>.<br/>
-This project is about how to add Client side validation to a form section.
+This project's goal is to use local storage to save user input.
  <br/>
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -63,6 +63,7 @@ This project is about how to add Client side validation to a form section.
 - **Understand how to make a design Responsive** for Desktop devices.
 - **Understand the usage of JavaScript: Events, DOM manipulation, syntax, and Objects to store data**📍
 - **Understand how to add Client side validation: regex, built-in input elements**📍
+- **Implement the preserve-data functionality** to the project. 📍
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,9 +204,9 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ]  - I will add a preserve data functionality in the browser.
+- [ ]  - I will add a presentation video to my porftolio.
 - [ ]  - I will add styles in case I add another element.
-- [ ]  - I will add new images.
+- [ ]  - I will add a languages sections.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
