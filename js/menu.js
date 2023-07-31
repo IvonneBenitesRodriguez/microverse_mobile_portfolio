@@ -181,7 +181,7 @@ for (let i = 0; i < projectsData.length; i += 1) {
     });
   });
 }
-
+//Contact Form Validation:
 const email = document.querySelector('#email');
 const validationMessageAlert = document.querySelector('.alert');
 const contactForm = document.querySelector('.contact-form');
